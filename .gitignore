@@ -1,0 +1,7 @@
+# qmake artifacts
+Makefile
+
+# build artifacts
+bin/
+*.o
+*.a
