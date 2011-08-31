@@ -1,5 +1,5 @@
 TEMPLATE = lib
-CONFIG = staticlib qt thread
+CONFIG = warn_on staticlib qt thread
 
 OBJECTS_DIR = ../tmp
 

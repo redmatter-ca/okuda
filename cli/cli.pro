@@ -1,5 +1,9 @@
 TEMPLATE = app
-CONFIG = qt thread
+CONFIG += warn_on qt thread
+
+win32 {
+	CONFIG += console
+}
 
 OBJECTS_DIR = tmp
 DESTDIR = ../bin
