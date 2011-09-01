@@ -1,0 +1,46 @@
+Okuda
+=====
+
+Okuda is a flexible, open source updater client for PC games.
+
+
+Setup
+-----
+
+Building Okuda requires the [Qt][] 4.7 SDK, and the GCC compiler.
+
+On Ubuntu 11.04, the following command will install the necessary packages:
+
+    $ sudo aptitude install build-essential libqt4-dev
+
+On Windows, you will need to download and install the SDK from the
+[Qt website][Qt], and use the default installation options.  You may need to
+substitute `nmake` or `mingw32-make` in place of `make` as necessary.
+
+Once the dependencies are installed, the following commands will build both
+the command line client and the graphical client, using shared libraries:
+
+    $ qmake
+	$ make
+
+To clean up build artifacts:
+
+    $ make clean
+
+To remove generated binaries and makefiles:
+
+    $ make distclean
+
+
+Credits
+-------
+
+Okuda is created by [redMatter](http://redmatter.ca).
+
+Okuda uses the following upstream projects:
+
+* [Qt][] by Nokia
+* [Qt-Json](https://github.com/ereilin/qt-json) by Eeli Reilin
+
+[Qt]: http://qt.nokia.com/ "Qt Framework"
+
