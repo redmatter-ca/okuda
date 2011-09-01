@@ -9,7 +9,7 @@ OBJECTS_DIR = tmp
 DESTDIR = ../bin
 TARGET = okudacli
 
-INCLUDEPATH += ../libokuda
-LIBS += -L../libokuda -llibokuda
+INCLUDEPATH += ../okuda
+LIBS += -L../okuda -lokuda
 
 SOURCES = main.cpp

@@ -1,5 +1,5 @@
 TEMPLATE = subdirs
-SUBDIRS = libokuda qtjson cli gui
-cli.depends = libokuda qtjson
-gui.depends = libokuda qtjson
+SUBDIRS = okuda qtjson cli gui
+cli.depends = okuda qtjson
+gui.depends = okuda qtjson
 
